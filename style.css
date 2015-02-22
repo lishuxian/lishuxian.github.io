@@ -1,0 +1,183 @@
+/*
+==================================================
+ PAGE
+==================================================
+*/
+
+html
+{
+    /*font-size: 0.9em;*/
+}
+
+
+body
+{
+    font-family: sans-serif;
+    background: url('images/tahiti-1.jpg') fixed no-repeat;
+    background-size: cover;
+}
+
+body a
+{
+    color: rgba(0,0,255,1);
+    text-decoration: none;
+}
+
+#bloc_page
+{
+    width: 800px;
+    /*min-width: 500px;
+    max-width: 750px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+
+/*
+ ==================================================
+ HEADER
+ ==================================================
+ */
+header
+{
+    height: 50px;
+}
+
+header p
+{
+    font-size: 1.3em;
+    color: white;
+    text-align: right;
+}
+
+nav
+{
+    width: 120px;
+    display: inline-block;
+    padding: 0px 12px 0px 12px;
+    /*margin: auto;*/
+    margin: 0px;
+    text-align: right;
+    background-color: rgba(80,180,100,0.95);
+    /*position: relative;*/
+    /*border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;*/
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid rgb(40,130,60);
+    /*position: absolute;
+    right: 100%;
+    top: 100px; bottom: 0;*/
+    vertical-align: top;
+}
+
+nav ul
+{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li
+{
+    display: block;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav li.current
+{
+}
+
+nav a
+{
+    color: rgb(255,255,255);
+    font-size: 1.1em;
+}
+
+nav li.current a
+{
+    color: rgb(50,80,155);;
+}
+
+
+/*
+ ==================================================
+ SECTION
+ ==================================================
+ */
+section
+{
+    width: 620px;
+    /*min-width: 400px;*/
+    /*position: absolute;*/
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding: 10px;
+    border: 1px solid black;
+    /*border-right: 1px solid black;
+    border-bottom: 1px solid black;*/
+    border-radius: 10px;
+    overflow: auto;
+    Background: rgb(250,250,250);
+    background: rgba(250,250,250,0.85);
+    vertical-align: top;
+}
+
+
+h1, h2, h3, p, dl, li, td, tr, table
+{
+    padding: 6px;
+    margin: 0px;
+}
+
+h1
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+}
+
+h2
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0px 10px 30px;
+}
+
+p
+{
+    text-align: justify;
+}
+
+
+
+/*
+ ==================================================
+ TABLE
+ ==================================================
+ */
+
+tr
+{
+    vertical-align: top;
+}
+
+td
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 6px 6px 8px;
+}
+
+.year p
+{
+    width: 120px;
+    text-align: center;
+}
